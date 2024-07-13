@@ -1,0 +1,15 @@
+header {
+    background-color: var(--color-primary);
+}
+
+.link-intro {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.link-intro:hover {
+    color: #ff6f00;
+}
+

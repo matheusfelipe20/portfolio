@@ -1,8 +1,15 @@
-/* Espaço para variaveis de cores padrões */
+/* Espaço para variaveis de cores */
 
 :root {
-    --color-primary: #111111;
-    --color-secondary: #ff8830;
+    --background-primary: #313131;
+    --background-secondary: #ff8830;
+    
+    --background-footer: var(--background-primary);
+    --background-header: #0c0c0c;
+
+    --color-primary: #fff;
+    --color-secundary: #333;
+    --color-primary-hover: #ff6f00;
 
     
 }

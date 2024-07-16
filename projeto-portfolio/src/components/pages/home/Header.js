@@ -8,7 +8,7 @@ import imgHeader from '../../../img/logo-intro.png';
 
 const Header = () => (
   <header className="header">
-    <img className="header-img" src={imgHeader} />
+    <img className="header-img" src={imgHeader} alt="imagem logo"/>
     <nav className="header-nav">
       <ul>
         <li><a className="link-intro" href="#intro">Inicio</a></li>

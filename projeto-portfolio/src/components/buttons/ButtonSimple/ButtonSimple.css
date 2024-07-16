@@ -1,0 +1,19 @@
+.button-simple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 21px;
+    text-decoration: none;
+    border: 2px solid var(--background-secondary);
+    color: var(--background-secondary);
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    outline: none;
+}
+
+.button-simple:hover {
+    background-color: var(--background-secondary);
+    color: var(--background-primary); 
+}

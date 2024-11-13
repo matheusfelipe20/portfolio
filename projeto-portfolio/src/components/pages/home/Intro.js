@@ -3,31 +3,38 @@ import './Intro.css'
 import ButtonContato from '../../buttons/ButtonSimple/ButtonSimple.js'
 
 const Intro = () => {
-  const phrases = ["Transformando ideias em código", "Automatizando o que é repetitivo", "E melhorando o seu negócio...!"];
+  const phrases = ["Transformando ideias em código..."];
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
-
+  const [showText, setShowText] = useState(true);
+  
   useEffect(() => {
-      const interval = setInterval(() => {
-          setCurrentPhraseIndex(prevIndex => (prevIndex + 1) % phrases.length);
-      }, 13000);
-      console.log(phrases.length);
-
-      return () => clearInterval(interval);
+    const displayInterval = setInterval(() => {
+      setShowText(false);
+      setTimeout(() => {
+        setCurrentPhraseIndex((prevIndex) => (prevIndex + 1) % phrases.length);
+        setShowText(true);
+      }, 3000); // Tempo de apagamento antes de mudar de frase
+    }, 10000); // Tempo total de cada animação (exibição + apagamento)
+  
+    return () => clearInterval(displayInterval);
   }, []);
+  
 
   return (
-    <section id="intro">
+    <section className="intro-section" id="intro">
       <div className="text-primary">
-        <h1 className="text-intro">Olá, eu sou Matheus</h1>
+        <h1 className="text-intro">Olá, me chamo Matheus</h1>
         <h1 className="animation-intro">_</h1>
       </div>
-      <h1 className="text-description">Desenvolvedor Web</h1>
-      <p className="text">{'</>'} Full Stack / Java Script {'</>'}</p>
+      <h1 className="text-description">Desenvolvedor de Software</h1>
+      <p className="text">{'</>'} Full Stack {'</>'}</p>
       <div className="div-animation-1">
         <h1 className="h1-animation-1">{">"}</h1>
-        <h1 className="animation-intro-1">{phrases[currentPhraseIndex]}</h1>
+        <h1 className={`animation-intro-1 ${showText ? "typing" : "erasing"}`}>
+          {phrases[currentPhraseIndex]}
+        </h1>
       </div>
-      <ButtonContato width="200px" height="35px" href="#contact" text="Entre em Contato"/>
+      <ButtonContato width="320px" height="55px" href="#contact" text="Entre em Contato"/>
     </section>
   );
 };

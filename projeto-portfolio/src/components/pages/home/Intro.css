@@ -4,8 +4,13 @@
     100% { opacity: 1; }
 }
 
-section {
-    margin-top: -20px;
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
 }
 
 .text-primary {
@@ -39,35 +44,47 @@ section {
 .div-animation-1 {
     padding: 10px 0px 30px 40px;
     display: flex;
-}
-
-.h1-animation-1 {
+    max-width: 650px;
+  }
+  
+  .h1-animation-1 {
     color: var(--background-secondary);
     font-size: 38px;
     margin-right: 10px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.animation-intro-1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .animation-intro-1 {
     font-size: 38px;
     letter-spacing: 2px;
     color: var(--background-secondary);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-right: 2px solid var(--background-secondary);
     white-space: nowrap;
     overflow: hidden;
-    width: 0;
-    animation: typing 13s steps(60, end) infinite, blink-caret .75s step-end infinite;
-}
-
+  }
+  
+  .typing {
+    animation: typing 4s steps(40, end) forwards;
+  }
+  
+  .erasing {
+    animation: erase 1.5s steps(40, end) forwards;
+  }
+  
+/* Animação de digitação */
 @keyframes typing {
-    0% { width: 0; }
-    70% { width: 600px; }
-    90% { width: 600px; }
-    100% { width: 0; }
-}
-
-@keyframes blink-caret {
-    from, to { border-color: transparent; }
-    20% { border-color: var(--background-secondary); }
-}
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  /* Animação de apagamento */
+  @keyframes erase {
+    from { width: 100%; }
+    to { width: 0; }
+  }
+  
+  /* Animação do cursor */
+  @keyframes blink-caret {
+    50% { border-color: transparent; }
+  }

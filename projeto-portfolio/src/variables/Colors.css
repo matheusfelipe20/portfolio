@@ -1,11 +1,11 @@
 /* Espaço para variaveis de cores */
 
 :root {
-    --background-primary: #313131;
+    --background-primary: #101010;
     --background-secondary: #ff8830;
     
     --background-footer: var(--background-primary);
-    --background-header: #0c0c0c;
+    --background-header: #000000;
 
     --color-primary: #fff;
     --color-secundary: #333;

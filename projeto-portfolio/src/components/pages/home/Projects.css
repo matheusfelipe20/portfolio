@@ -79,3 +79,19 @@
     font-weight: 600;
     text-align: left;
   }
+
+  .project-category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .project-tag-technology {
+    background-color: var(--background-tag-tecn);
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    color: var(--font-tag-tecn);
+    font-weight: 600;
+  }

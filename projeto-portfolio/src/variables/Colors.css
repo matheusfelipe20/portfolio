@@ -11,5 +11,16 @@
     --color-secundary: #333;
     --color-primary-hover: #ff6f00;
 
-    
+    /* Variaveis cores de tag projetos */
+
+    --color-tag-project: #a400ff;
+    --color-tag-site: #ff7d00;
+    --color-tag-study: #00a7ff;
+    --color-tag-game: #00ff56;
+    --color-tag-training: #ff0039;
+
+    /* Variaveis cores tag tecnologia de projeto */
+
+    --background-tag-tecn: #ff8830;
+    --font-tag-tecn: #101010;
 }

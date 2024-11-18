@@ -3,7 +3,7 @@ import './Header.css';
 import SocialButton from '../../buttons/SocialButton/SocialButton';
 import linkedinIcon from '../../../icons/linkedin-white.svg';
 import githubIcon from '../../../icons/github-white.svg';
-import emailIcon from '../../../icons/email-white.svg';
+import instaIcon from '../../../icons/instagram-white.svg';
 import imgHeader from '../../../img/logo-intro.png';
 
 const Header = () => (
@@ -21,7 +21,7 @@ const Header = () => (
     <div className="header-social">
       <SocialButton height={"28px"} width={"28px"} icon={linkedinIcon} alt="Linkedin" href="https://www.linkedin.com/in/matheus-felipe-bandeira-oliveira-30a6b8206/" />
       <SocialButton height={"28px"} width={"28px"} icon={githubIcon} alt="Github" href="https://github.com/matheusfelipe20" />
-      <SocialButton height={"28px"} width={"28px"} icon={emailIcon} alt="Instagram" href="https://www.instagram.com/felipe_2012matheus?igsh=MWx0ZmdmbXc1ODYyNQ==" />
+      <SocialButton height={"28px"} width={"28px"} icon={instaIcon} alt="Instagram" href="https://www.instagram.com/felipe_2012matheus?igsh=MWx0ZmdmbXc1ODYyNQ==" />
     </div>
   </header>
 );

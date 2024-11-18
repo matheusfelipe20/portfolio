@@ -1,0 +1,203 @@
+#experiences {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: -50px;
+}
+
+.experiences-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--color-primary);
+    margin: 0;
+    text-align: left;
+}
+
+.experiences-divider {
+    border: none;
+    border-top: 4px solid var(--background-secondary);
+    margin: 10px 0 20px 0;
+    width: 60px;
+}
+
+/* Estilo  itens experiencia*/
+.experiences-list {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-item {
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+
+.exp-subtitle {
+    font-size: 0.9rem;
+    margin-top: -15px;
+}
+
+.exp-duration {
+    font-size: 0.75rem;
+    color: var(--background-secondary);
+    margin-top: -10px;
+}
+
+.exp-description {
+    font-size: 1rem;
+    margin-left: 20px;
+    width: 85%;
+    text-align: justify;
+}
+
+.exp-divider {
+    border: none;
+    border-top: 1px solid var(--background-secondary);
+    margin-top: 50px;
+    width: 50%;
+    margin-bottom: -10px;
+}
+
+.certificate-item {
+    margin-right: 30px;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+
+/* Previa Certificado */
+.certificate-preview {
+    background-color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-align: center;
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.certificates-title {
+    font-size: 2rem;
+    margin-top: -20px;
+    color: var(--background-secondary);
+}
+
+.certificates-divider {
+    border: none;
+    border-top: 4px solid var(--color-primary);
+    margin: 10px 0 20px 0;
+    width: 60px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.certificates-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.certificate-preview img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.certificate-preview:hover {
+    transform: scale(1.05);
+}
+
+.certificate-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-align: center;
+    padding: 5px 0;
+}
+  
+.certificate-title-text {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+/* Estilos do modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+  
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+  
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #ff0000;
+}
+
+/* Estilo de competencia */
+
+.competence {
+    margin-left: 30px;
+}
+
+.competence-title {
+    font-size: 2rem;
+    margin-top: -20px;
+    color: var(--background-secondary);
+}
+
+.competence-divider {
+    border: none;
+    border-top: 4px solid var(--color-primary);
+    margin: 10px 0 20px 0;
+    width: 60px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.competence-text {
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.competence-subtitle {
+    margin-left: 20px;
+    color: var(--background-secondary);
+}

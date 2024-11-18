@@ -13,8 +13,8 @@ const Intro = () => {
       setTimeout(() => {
         setCurrentPhraseIndex((prevIndex) => (prevIndex + 1) % phrases.length);
         setShowText(true);
-      }, 3000); // Tempo de apagamento antes de mudar de frase
-    }, 10000); // Tempo total de cada animação (exibição + apagamento)
+      }, 3000); // Tempo para apagar
+    }, 10000); // Tempo total de cada animação (exibição + apagar)
   
     return () => clearInterval(displayInterval);
   }, []);
@@ -26,7 +26,7 @@ const Intro = () => {
         <h1 className="text-intro">Olá, me chamo Matheus</h1>
         <h1 className="animation-intro">_</h1>
       </div>
-      <h1 className="text-description">Desenvolvedor de Software</h1>
+      <h1 className="text-description">Desenvolvedor Web</h1>
       <p className="text">{'</>'} Full Stack {'</>'}</p>
       <div className="div-animation-1">
         <h1 className="h1-animation-1">{">"}</h1>

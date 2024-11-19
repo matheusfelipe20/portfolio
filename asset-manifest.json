@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c28d67f0.css",
-    "main.js": "/portfolio/static/js/main.10006a34.js",
+    "main.css": "/portfolio/static/css/main.44f6f082.css",
+    "main.js": "/portfolio/static/js/main.c4d4ef2f.js",
     "static/js/453.4eb35551.chunk.js": "/portfolio/static/js/453.4eb35551.chunk.js",
-    "static/media/logo-intro.png": "/portfolio/static/media/logo-intro.a5cc164cdaafa588b374.png",
+    "static/media/photo-about.jpg": "/portfolio/static/media/photo-about.5a4dfdb5292ebee5cb97.jpg",
+    "static/media/meajude.png": "/portfolio/static/media/meajude.6ecc150731ad1f2ae92e.png",
+    "static/media/photo-perfil.jpg": "/portfolio/static/media/photo-perfil.56e4f16973b29a4a702e.jpg",
+    "static/media/missaoSaude.png": "/portfolio/static/media/missaoSaude.6017f2dad3fdb8b1cc8d.png",
+    "static/media/apostas-sport.png": "/portfolio/static/media/apostas-sport.2e61f51027a3a3dc2572.png",
+    "static/media/jogo-nave.png": "/portfolio/static/media/jogo-nave.197d229b86b941fc4a3a.png",
+    "static/media/suadieta.png": "/portfolio/static/media/suadieta.ed12a8fe007c8eb9c82b.png",
+    "static/media/github-white.svg": "/portfolio/static/media/github-white.2e7cf5d923cbc9e897e0f0a02c8a37ee.svg",
+    "static/media/linkedin-white.svg": "/portfolio/static/media/linkedin-white.401f23b8c1d8e623f75cd3ebcb7688a9.svg",
+    "static/media/instagram-white.svg": "/portfolio/static/media/instagram-white.4c5607f97c4b0499deb8c327b28a17fd.svg",
     "index.html": "/portfolio/index.html",
-    "main.c28d67f0.css.map": "/portfolio/static/css/main.c28d67f0.css.map",
-    "main.10006a34.js.map": "/portfolio/static/js/main.10006a34.js.map",
+    "main.44f6f082.css.map": "/portfolio/static/css/main.44f6f082.css.map",
+    "main.c4d4ef2f.js.map": "/portfolio/static/js/main.c4d4ef2f.js.map",
     "453.4eb35551.chunk.js.map": "/portfolio/static/js/453.4eb35551.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c28d67f0.css",
-    "static/js/main.10006a34.js"
+    "static/css/main.44f6f082.css",
+    "static/js/main.c4d4ef2f.js"
   ]
 }

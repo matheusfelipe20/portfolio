@@ -7,6 +7,7 @@ const Intro = () => {
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
   const [showText, setShowText] = useState(true);
   
+  //Animação de digitação
   useEffect(() => {
     const displayInterval = setInterval(() => {
       setShowText(false);

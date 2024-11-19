@@ -4,7 +4,7 @@ import '../../../variables/Colors.css';
 
 const Footer = () => (
   <footer>
-    <hr className="divider-footer" />
+    <hr className="footer-divider" />
     <p>&copy; Matheus - Portfolio.</p>
   </footer>
 );

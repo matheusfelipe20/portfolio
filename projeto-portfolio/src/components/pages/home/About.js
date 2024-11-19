@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className="about-text-container">
           <h2 className="about-title">Sobre Mim</h2>
-          <hr className="divider-about" />
+          <hr className="about-divider" />
           <p className="about-text">
             Olá! Sou um desenvolvedor apaixonado por transformar ideias em realidade. Tenho experiência em desenvolvimento web, especialmente com React, VueJS e Spring Boot. Além disso, estou sempre buscando melhorar minhas habilidades e aprender novas tecnologias.
           </p>

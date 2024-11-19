@@ -32,3 +32,11 @@ section {
   padding: 20px;
   overflow-y: auto;
 }
+
+
+/* Responsivo para dispositivos menores */
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0px;
+  }
+}

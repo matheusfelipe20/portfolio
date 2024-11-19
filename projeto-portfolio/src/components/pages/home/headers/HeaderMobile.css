@@ -1,0 +1,31 @@
+.header-mobile {
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 0.8rem 0;
+    text-align: left;
+}
+
+.header-nav-mobile {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.header-img-mobile {
+    width: 60px;
+    margin-left: 15px;
+}
+
+.header-intro-mobile {
+    display: flex;
+}
+
+.link-intro-mobile {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-right: 22px;
+    font-size: 0.85rem;
+}

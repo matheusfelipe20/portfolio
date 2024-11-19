@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+
 import chatSocketTCP from '../../../img/project/socket-tcp.png';
 import meajude from '../../../img/project/meajude.png';
 import suadieta from '../../../img/project/suadieta.png';
@@ -22,7 +23,7 @@ const Projects = () => (
   <section id="projects">
     <div className="projects-content">
       <h2 className="projects-title">Projetos</h2>
-      <hr className="divider-projects" />
+      <hr className="projects-divider" />
       <div className="projects-grid">
         {projectsData.map((project) => (
           <a key={project.id} href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">

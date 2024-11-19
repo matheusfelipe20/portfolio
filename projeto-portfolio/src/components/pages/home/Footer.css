@@ -5,7 +5,7 @@ footer {
     padding: 1rem 0;
 }
 
-.divider-footer {
+.footer-divider {
     border: none;
     border-top: 1px solid var(--background-secondary);
     margin: 20px auto;

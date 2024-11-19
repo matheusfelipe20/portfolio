@@ -35,7 +35,7 @@ const CertificatesSection = ({ certificates }) => {
   return (
     <section id="certificates">
       <h2 className="certificates-title">Certificados</h2>
-      <hr className="certificates-divider" />
+      <hr className="certificates-divider"/>
       <ul className="certificates-list">
         {certificates.map((cert, index) => {
           const fileId = cert.pdfLink.split('/d/')[1]?.split('/')[0];

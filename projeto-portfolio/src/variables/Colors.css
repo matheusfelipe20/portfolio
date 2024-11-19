@@ -3,9 +3,9 @@
 :root {
     --background-primary: #101010;
     --background-secondary: #ff8830;
-    
     --background-footer: var(--background-primary);
     --background-header: #000000;
+    --background-form: #fff;
 
     --color-primary: #fff;
     --color-secundary: #333;
@@ -22,11 +22,7 @@
     /* Variaveis cores tag tecnologia de projeto */
 
     --background-tag-tecn: #ff8830;
+
     --font-tag-tecn: #101010;
-
-
     --font-black: #101010;
-
-
-    --background-form: #fff;
 }

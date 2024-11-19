@@ -47,7 +47,7 @@
     margin: 0 0 0 0;
 }
 
-.divider-about {
+.about-divider {
     border: none;
     border-top: 4px solid var(--background-secondary);
     margin: 0 0px 5px 0px;
@@ -71,6 +71,10 @@
 
 /* Responsivo para dispositivos menores */
 @media (max-width: 768px) {
+    .about-section {
+        margin-bottom: -80px;
+    }
+
     .about-content {
         flex-direction: column;
         align-items: center;

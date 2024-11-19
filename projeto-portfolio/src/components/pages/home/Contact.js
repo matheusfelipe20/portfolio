@@ -29,7 +29,7 @@ const Contact = () => {
 
     // Enviar e-mail usando o EmailJS
     emailjs
-      .sendForm('service_id', 'template_id', e.target, 'user_id')
+      .sendForm('service_ez4e87c', 'template_20c9ozq', e.target, 'KQo6Nl7ZzOcx4KTEZ')
       .then((result) => {
         console.log('Email enviado com sucesso:', result.text);
         alert('Mensagem enviada com sucesso!');

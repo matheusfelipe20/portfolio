@@ -87,4 +87,9 @@
     .about-text {
         font-size: 1rem;
     }
+
+    .about-image-container {
+        margin-right: 0;
+
+    }
 }

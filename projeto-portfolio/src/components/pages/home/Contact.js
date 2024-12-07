@@ -6,7 +6,7 @@ import SocialButton from '../../buttons/SocialButton/SocialButton';
 import linkedinIcon from '../../../icons/linkedin-white.svg';
 import githubIcon from '../../../icons/github-white.svg';
 import instaIcon from '../../../icons/instagram-white.svg';
-import perfilImage from '../../../img/photo-perfil.png';
+import perfilImage from '../../../img/photo-perfil.jpeg';
 
 const Contact = () => {
   const [formData, setFormData] = useState({

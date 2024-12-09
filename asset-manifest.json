@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.62f1dd9f.css",
-    "main.js": "/portfolio/static/js/main.452340b0.js",
+    "main.js": "/portfolio/static/js/main.b625ffb5.js",
     "static/js/453.4eb35551.chunk.js": "/portfolio/static/js/453.4eb35551.chunk.js",
     "static/media/photo-about.jpeg": "/portfolio/static/media/photo-about.e963df93b274897cdffe.jpeg",
     "static/media/photo-perfil.jpg": "/portfolio/static/media/photo-perfil.32b580fb58691ed80de5.jpg",
@@ -10,16 +10,17 @@
     "static/media/apostas-sport.png": "/portfolio/static/media/apostas-sport.2e61f51027a3a3dc2572.png",
     "static/media/jogo-nave.png": "/portfolio/static/media/jogo-nave.197d229b86b941fc4a3a.png",
     "static/media/suadieta.png": "/portfolio/static/media/suadieta.ed12a8fe007c8eb9c82b.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.46236cb6c8950e3805a8.png",
     "static/media/github-white.svg": "/portfolio/static/media/github-white.2e7cf5d923cbc9e897e0f0a02c8a37ee.svg",
     "static/media/linkedin-white.svg": "/portfolio/static/media/linkedin-white.401f23b8c1d8e623f75cd3ebcb7688a9.svg",
     "static/media/instagram-white.svg": "/portfolio/static/media/instagram-white.4c5607f97c4b0499deb8c327b28a17fd.svg",
     "index.html": "/portfolio/index.html",
     "main.62f1dd9f.css.map": "/portfolio/static/css/main.62f1dd9f.css.map",
-    "main.452340b0.js.map": "/portfolio/static/js/main.452340b0.js.map",
+    "main.b625ffb5.js.map": "/portfolio/static/js/main.b625ffb5.js.map",
     "453.4eb35551.chunk.js.map": "/portfolio/static/js/453.4eb35551.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62f1dd9f.css",
-    "static/js/main.452340b0.js"
+    "static/js/main.b625ffb5.js"
   ]
 }

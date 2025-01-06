@@ -18,7 +18,7 @@ const Intro = () => {
     }, 10000); // Tempo total de cada animação (exibição + apagar)
   
     return () => clearInterval(displayInterval);
-  }, []);
+  }, [phrases.length]);
   
 
   return (
@@ -28,14 +28,14 @@ const Intro = () => {
         <h1 className="animation-intro">_</h1>
       </div>
       <h1 className="text-description">Desenvolvedor Web</h1>
-      <p className="text">{'</>'} Full Stack {'</>'}</p>
+      <p className="text">{'</>'} Front-end {'</>'}</p>
       <div className="div-animation-1">
         <h1 className="h1-animation-1">{">"}</h1>
         <h1 className={`animation-intro-1 ${showText ? "typing" : "erasing"}`}>
           {phrases[currentPhraseIndex]}
         </h1>
       </div>
-      <ButtonContato width="320px" height="55px" href="#contact" text="Entre em Contato"/>
+      <ButtonContato height="55px" href="#contact" text="Entre em Contato"/>
     </section>
   );
 };

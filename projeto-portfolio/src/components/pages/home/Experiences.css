@@ -48,6 +48,25 @@
     text-align: justify;
 }
 
+.exp-button {
+    background-color: transparent;
+    color: var(--background-secondary);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.exp-button:hover {
+    background-color: var(--background-secondary);
+    color: var(--background-primary);
+}
+
 .exp-divider {
     border: none;
     border-top: 1px solid var(--background-secondary);
@@ -192,8 +211,20 @@ ul, ol {
 }
 
 .competence-text {
-    margin-left: 30px;
-    margin-top: -10px;
+    margin-left: 50px;
+    margin-top: -15px;
+}
+
+.competence-idiom {
+    display: flex;
+    margin-left: 50px;
+    margin-top: -15px;
+}
+
+.competence-idiom-description {
+    margin-left: 10px;
+    font-weight: 600;
+    color: var(--background-secondary);
 }
 
 .competence-subtitle {
@@ -217,6 +248,11 @@ ul, ol {
     }
 
     .competence-text {
+        margin-left: 15px;
+        margin-top: -10px;
+    }
+
+    .competence-idiom {
         margin-left: 15px;
         margin-top: -10px;
     }

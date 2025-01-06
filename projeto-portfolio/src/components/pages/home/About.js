@@ -14,7 +14,7 @@ const About = () => {
           <h2 className="about-title">Sobre Mim</h2>
           <hr className="about-divider" />
           <p className="about-text">
-            Olá! Sou um desenvolvedor apaixonado por transformar ideias em realidade. Tenho experiência em desenvolvimento web, especialmente com React, VueJS e Spring Boot. Além disso, estou sempre buscando melhorar minhas habilidades e aprender novas tecnologias.
+            Olá! Sou um desenvolvedor apaixonado por transformar ideias em realidade. Tenho experiência em desenvolvimento web, especialmente com JavaScript, utilizando React, VueJS e Angular. Além disso, estou sempre buscando melhorar minhas habilidades e aprender novas tecnologias.
           </p>
           <p className="about-text">
             Ao longo da minha jornada, tive a oportunidade de trabalhar em projetos incríveis tanto na faculdade, como também, no mercado de trabalho. Dessa forma, estou empolgado para enfrentar novos desafios e continuar crescendo como profissional!

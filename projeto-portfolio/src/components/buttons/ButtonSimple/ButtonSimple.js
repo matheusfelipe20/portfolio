@@ -2,7 +2,7 @@ import React from 'react';
 import '../../../variables/Colors.css';
 import './ButtonSimple.css';
 
-const ButtonSimple = ({width, height, text, href, alt}) => {
+const ButtonSimple = ({width, height, text, href}) => {
     return (
         <a href={href} className="button-simple" style={{ width, height }}>{text}</a>
     );

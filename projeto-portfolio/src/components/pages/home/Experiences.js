@@ -2,17 +2,34 @@ import React, { useState } from 'react';
 import './Experiences.css';
 
 // Exibe os itens em experiência
-const ExperienceItem = ({ title, subtitle, duration, description }) => (
-  <li className="experience-item">
-    <div className="experience-header">
-      <h3>{title}</h3>
-      <p className="exp-subtitle">{subtitle}</p>
-      <p className="exp-duration">{duration}</p>
-    </div>
-    <p className="exp-description">{description}</p>
-    <hr className="exp-divider" />
-  </li>
-);
+const ExperienceItem = ({ title, subtitle, duration, description }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  // Define o texto a ser exibido, sendo completo ou não
+  const displayedText = isExpanded
+    ? description
+    : description.slice(0, 400) + (description.length > 400 ? '...' : '');
+
+  return (
+    <li className="experience-item">
+      <div className="experience-header">
+        <h3>{title}</h3>
+        <p className="exp-subtitle">{subtitle}</p>
+        <p className="exp-duration">{duration}</p>
+      </div>
+      <p className="exp-description">{displayedText}</p>
+      {description.length > 400 && (
+        <button
+          className="exp-button"
+          onClick={() => setIsExpanded(!isExpanded)}
+        >
+          {isExpanded ? 'Ver menos' : 'Ver mais'}
+        </button>
+      )}
+      <hr className="exp-divider" />
+    </li>
+  );
+};
 
 //  Exibe a lista de certificados
 const CertificatesSection = ({ certificates }) => {
@@ -80,24 +97,32 @@ const Experiences = () => {
   const experiencesData = [
     {
       title: 'Desenvolvedor Web - Front-end',
-      subtitle: 'ServiceNet - Estágio AYTY',
+      subtitle: 'ServiceNet - Estágio',
       duration: 'Abr. de 2022 - Jan. de 2024',
       description:
-        'Responsável por desenvolver novas telas para os projetos utilizando Vue.js, solucionar bugs no código, assim como resolver problemas de interface. Além disso, fui responsável por desenvolver componentes utilizando Vue 3 e corrigir ou adicionar elementos de acordo com as exigências do cliente.',
+        'Atuei como desenvolvedor front-end, sendo responsável por projetar e implementar novas telas para projetos utilizando o framework VueJs, com foco em uma experiência de usuário intuitiva e eficiente. ' +
+        'Liderei a identificação e resolução de bugs no código, aplicando boas práticas de programação para garantir a robustez e a manutenção das aplicações. ' + 
+        'Além disso, desenvolvi componentes reutilizáveis e modulares utilizando Vue 3, otimizando o desempenho e facilitando a escalabilidade dos sistemas. Também fui responsável por modernizar códigos antigos do sistema, migrando-os para Vue 3. ' +
+        'Nesse processo, refatorei grande parte da lógica do front-end, substituindo estruturas obsoletas por abordagens mais simples e modernas, alinhadas às melhores práticas do mercado. ' +
+        'Por último, colaborei diretamente com clientes e equipes internas para entender e atender às suas demandas, realizando ajustes e implementando novos elementos com base nas necessidades do cliente.'
     },
     {
       title: 'Desenvolvedor Web - Full Stack',
-      subtitle: 'Universi.me - Projeto Voluntário',
-      duration: 'Jan. de 2023 - Dez. de 2023',
+      subtitle: 'Universi.me - Projeto de Extensão Voluntário',
+      duration: 'Jan. de 2023 - Maio de 2024',
       description:
-        'Responsável por desenvolver o módulo de capacitação, incluindo os testes, desde o back-end utilizando Spring Boot até o front-end utilizando React e TypeScript. Além disso, contribuí para o desenvolvimento da tela de visualização de currículos e vagas disponíveis.',
+      'Fui responsável por desenvolver o módulo de capacitação de forma completa, abrangendo desde a implementação do back-end, utilizando Spring Boot, até o desenvolvimento do front-end com React e TypeScript. No back-end, projetei e implementei APIs robustas para gerenciar dados relacionados a testes, usuários e capacitações, garantindo segurança, eficiência e escalabilidade.' +
+      'No front-end, criei interfaces intuitivas e responsivas que facilitaram a experiência dos usuários na realização e gestão de testes.' + 
+      'Entre minhas principais contribuições, destaque-se o desenvolvimento da tela de visualização de currículos, onde projetei uma interface funcional e atrativa que permite aos usuários navegar e gerenciar suas informações de forma organizada. Também atuei na criação da funcionalidade de visualização de vagas disponíveis, oferecendo uma navegação clara e intuitiva entre as oportunidades.' + 
+      'Além disso, como meu TCC (Trabalho de Conclusão de Curso) fui responsável pela implementação de um gerenciador de armazenamento de arquivos para o módulo de capacitação, utilizando a tecnologia MinIO. Essa solução permitiu o upload, armazenamento e gerenciamento seguro de arquivos, como documentos e certificados, oferecendo alta confiabilidade e performance.'
     },
     {
       title: 'Desenvolvedor Web - Front-end',
-      subtitle: 'Sua Dieta - Projeto Voluntário',
+      subtitle: 'Sua Dieta - Projeto Acadêmico Voluntário',
       duration: 'Ago. de 2021 - Dez. de 2021',
       description:
-        'Desenvolvimento de telas intuitivas para o cadastro de novas dietas e visualização de dietas previamente criadas. Além disso, redesenhei telas já existentes, como a de login e o menu, para que se alinhassem à identidade do site.',
+        'Participei do desenvolvimento de telas intuitivas voltadas para o cadastro de novas dietas e a visualização de dietas previamente criadas, garantindo que as interfaces fossem funcionais, organizadas e alinhadas às necessidades do projeto. Além disso, realizei o redesenho de telas existentes, como, por exemplo, a de login e o menu, ajustando-as para refletir a identidade visual do site, melhorando a experiência do usuário e promovendo maior consistência estética e funcional.' +
+        'Minha participação no projeto foi breve, pois se tratava de um trabalho acadêmico realizado no contexto de uma disciplina universitária. O tempo limitado imposto pela duração da matéria restringiu o meu envolvimento com o projeto, mas permitiu que eu contribuísse de forma significativa no desenvolvimento e refinamento das principais funcionalidades atribuídas à equipe. Mesmo em um curto período, foquei na entrega de soluções de alta qualidade e alinhadas às expectativas do projeto.'
     },
   ];
 
@@ -132,11 +157,18 @@ const Experiences = () => {
         <h2 className="competence-title">Competências</h2>
         <hr className="competence-divider"/>
         <h4 className="competence-subtitle">Front-end</h4>
-        <p className="competence-text">Java Script | React | Vue.js | Type Script | HTML | CSS | SASS</p>
+        <p className="competence-text">Java Script | React | Vue.js | Type Script | Angular | HTML | CSS | SASS</p>
         <h4 className="competence-subtitle">Back-end</h4>
         <p className="competence-text">Java | Golang | Spring Boot | Testing | SQL | PostgreSQL</p>
         <h4 className="competence-subtitle">Idiomas</h4>
-        <p className="competence-text">Inglês e Espanhol</p>
+        <div className="competence-idiom">
+          <p className="competence-idiom-text">Inglês</p>
+          <p className="competence-idiom-description">(Leitura / Escrita)</p>
+        </div>
+        <div className="competence-idiom">
+          <p className="competence-idiom-text">Espanhol</p>
+          <p className="competence-idiom-description">(Leitura / Escrita)</p>
+        </div>
       </div>
     </section>
   );

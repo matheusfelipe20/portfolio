@@ -10,17 +10,19 @@ import missaoSaude from '../../../img/project/missaoSaude.png';
 import aspnet from '../../../img/project/aspnet.png'
 import portfolio from '../../../img/project/portfolio.png'
 import studioamanda from '../../../img/project/studioAmanda.png'
+import analysisScore from '../../../img/project/analysisScore.png'
 
 const projectsData = [
-  { id: 1, tag: 'Projeto', title: 'Sist. Apostas Esportivas', color: 'var(--color-tag-project)', imgSrc: apostasEsportivas, link: 'https://github.com/matheusfelipe20/desafio-api-jogos', tag_technology: ['Golang', 'JavaScript'],},
+  { id: 1, tag: 'Site', title: 'Analysis Score', color: 'var(--color-tag-site)', imgSrc: analysisScore, link: 'https://matheusfelipe20.github.io/project-front-football-analysis/football', tag_technology: ['React', 'JavaScript'],},
   { id: 2, tag: 'Projeto', title: 'Proj. DSC - UFPB', color: 'var(--color-tag-project)', imgSrc: meajude, link: 'https://github.com/matheusfelipe20/ChatSocketTCP', tag_technology: ['Java', 'Spring Boot'],},
-  { id: 3, tag: 'Projeto', title: 'Proj. Sua Deita - UFPB', color: 'var(--color-tag-project)', imgSrc: suadieta, link: 'https://github.com/matheusfelipe20/ESA-2022.1--SuaDieta--Projeto-UFPB', tag_technology: ['JavaScript', 'HTML/CSS', 'Python'],},
+  { id: 3, tag: 'Site', title: 'Studio Amanda Paiva', color: 'var(--color-tag-site)', imgSrc: studioamanda, link: 'https://studioamandapaiva.com.br/', tag_technology: ['React', 'JavaScript'],}, 
   { id: 4, tag: 'Site', title: 'Missão com Saúde', color: 'var(--color-tag-site)', imgSrc: missaoSaude, link: 'https://matheusfelipe20.github.io/Projeto-AS/', tag_technology: ['React', 'JavaScript'],},
   { id: 5, tag: 'Site', title: 'Meu Portfolio', color: 'var(--color-tag-site)', imgSrc: portfolio, link: 'https://github.com/matheusfelipe20/portfolio', tag_technology: ['React', 'JavaScript'],},
-  { id: 6, tag: 'Site', title: 'Studio Amanda Paiva', color: 'var(--color-tag-site)', imgSrc: studioamanda, link: 'https://studioamandapaiva.com.br/', tag_technology: ['React', 'JavaScript'],},
+  { id: 6, tag: 'Projeto', title: 'Proj. Sua Deita - UFPB', color: 'var(--color-tag-project)', imgSrc: suadieta, link: 'https://github.com/matheusfelipe20/ESA-2022.1--SuaDieta--Projeto-UFPB', tag_technology: ['JavaScript', 'HTML/CSS', 'Python'],},
   { id: 7, tag: 'Estudo', title: 'Chat Socket TCP', color: 'var(--color-tag-study)', imgSrc: chatSocketTCP, link: 'https://github.com/matheusfelipe20/ChatSocketTCP', tag_technology: ['Java'],},
   { id: 8, tag: 'Jogo', title: 'Jogo Nave Simples', color: 'var(--color-tag-game)', imgSrc: jogoNave, link: 'https://github.com/matheusfelipe20/Jogo-Nave-simples-JAVA', tag_technology: ['Java'],},
   { id: 9, tag: 'Treino', title: 'Proj. Asp.net', color: 'var(--color-tag-training)', imgSrc: aspnet, link: 'https://github.com/matheusfelipe20/Projeto-ASP.NET', tag_technology: ['C#', 'ASP.Net', 'HTML/CSS'],},
+  { id: 10, tag: 'Projeto', title: 'Sist. Apostas Esportivas', color: 'var(--color-tag-project)', imgSrc: apostasEsportivas, link: 'https://github.com/matheusfelipe20/desafio-api-jogos', tag_technology: ['Golang', 'JavaScript'],},
 ];
 
 const Projects = () => (

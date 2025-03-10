@@ -19,12 +19,6 @@ const About = () => {
           <p className="about-text">
             Ao longo da minha jornada, tive a oportunidade de trabalhar em projetos incríveis tanto na faculdade, como também, no mercado de trabalho. Dessa forma, estou empolgado para enfrentar novos desafios e continuar crescendo como profissional!
           </p>
-          <p className="about-text-bold">
-            + Bacharel em Sistemas de Informação | UFPB (2020 / 2024)
-          </p>
-          <p className="about-text-bold">
-            + Laureado pelo curso de Sistemas de Informação
-          </p>
         </div>
       </div>
     </section>

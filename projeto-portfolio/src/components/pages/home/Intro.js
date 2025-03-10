@@ -27,8 +27,8 @@ const Intro = () => {
         <h1 className="text-intro">Olá, me chamo Matheus</h1>
         <h1 className="animation-intro">_</h1>
       </div>
-      <h1 className="text-description">Desenvolvedor Web</h1>
-      <p className="text">{'</>'} Front-end {'</>'}</p>
+      <h1 className="text-description">Desenvolvedor de Software</h1>
+      <p className="text">{'</>'} Back end {'</>'}</p>
       <div className="div-animation-1">
         <h1 className="h1-animation-1">{">"}</h1>
         <h1 className={`animation-intro-1 ${showText ? "typing" : "erasing"}`}>

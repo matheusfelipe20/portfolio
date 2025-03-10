@@ -8,14 +8,18 @@ import Projects from './components/pages/home/Projects';
 import Contact from './components/pages/home/Contact';
 import Footer from './components/pages/home/Footer';
 import Experiences from './components/pages/home/Experiences';
+import Academic from './components/pages/home/Academic';
+import ButtonScroll from './components/buttons/ButtonScroll/ButtonScroll';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <main className="main-content">
+        <ButtonScroll />
         <Intro />
         <About />
+        <Academic />
         <Projects />
         <Experiences />
         <Contact />

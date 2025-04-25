@@ -18,7 +18,7 @@
 .skills-divider {
   border: none;
   border-top: 4px solid var(--background-secondary);
-  margin: 0px 0 20px 0;
+  margin: 10px 0 20px 0;
   width: 60px;
 }
   

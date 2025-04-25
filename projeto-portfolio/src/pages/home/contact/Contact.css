@@ -27,7 +27,7 @@
 .contato-divider {
     border: none;
     border-top: 4px solid var(--background-secondary);
-    margin: 0 0px 5px 0px;
+    margin: 10px 0px 5px 0px;
     width: 60px
 }
 

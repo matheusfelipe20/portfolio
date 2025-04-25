@@ -1,5 +1,8 @@
 const i18nTexts = {
     'pt-BR': {
+        // Textos do componente Loading
+        Text_Loading: 'Carregando...',
+
         // Textos do componente Header
         Experience_Header: 'Experiência',
         About_Header: 'Sobre Mim',
@@ -111,6 +114,9 @@ const i18nTexts = {
         TitlePage_Footer: 'Portfolio  | Matheus Felipe',
     },
     'en-US': {
+        // Textos do componente Loading
+        Text_Loading: 'Loading...',
+
         // Textos do Header
         Experience_Header: 'Experience',
         About_Header: 'About Me',

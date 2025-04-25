@@ -1,0 +1,49 @@
+.panel-animated-wrapper {
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--color-palette-03);
+    padding: 20px 0;
+    position: relative;
+    /* z-index: 999; */
+    /* margin: 20px 0px 20px 0px; */
+}
+  
+.panel-animated-track {
+    display: flex;
+    width: max-content;
+    animation: scroll-horizontal linear infinite;
+    overflow: hidden;
+}
+  
+.item-panelAnimated {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: nowrap;
+    padding-right: 15px;
+    color: var(--color-palette-01);
+}
+  
+.item-panelAnimated img {
+    width: 30px;
+    height: 30px;
+}
+  
+@keyframes scroll-horizontal {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-33.33%);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .panel-animated-wrapper {
+        width: 100%;
+    }
+}

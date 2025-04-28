@@ -26,7 +26,7 @@ const Intro = () => {
                       <div className="redeSocial-intro">
                         <SocialButton height={"40px"} width={"40px"} icon={githubIcon} alt="Botão Perfil no Github" href="https://github.com/matheusfelipe20"/>
                         <SocialButton height={"40px"} width={"40px"} icon={linkedinIcon} alt="Botão Perfil no Linkedin" href="https://www.linkedin.com/in/matheus-felipe-30a6b8206/"/>
-                        <SocialButton height={"40px"} width={"40px"} icon={instagramIcon} alt="Botão Perfil no Instagram" href="https://www.instagram.com/felipe_2012matheus?igsh=MWx0ZmdmbXc1ODYyNQ=="/>
+                        <SocialButton height={"40px"} width={"40px"} icon={instagramIcon} alt="Botão Perfil no Instagram" href="https://www.instagram.com/felipe_2012matheus/"/>
                       </div>
                       <ButtonSimple href="#contact" height="60px" text={texts.ButtonContact_Intro} alt="Botão de Contato"/>
                     </div>

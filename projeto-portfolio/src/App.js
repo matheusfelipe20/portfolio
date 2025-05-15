@@ -16,6 +16,7 @@ import Experiences from "./pages/home/experience/Experiences";
 import Projects from "./pages/home/project/Projects";
 import Certificates from "./pages/home/certificates/Certificates";
 import Skills from "./pages/home/skills/Skills";
+import Figma from "./pages/home/figma/Figma";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -63,6 +64,7 @@ function MainContent() {
               <Experiences />
               <PanelAnimated />
               <Projects />
+              <Figma />
               <Skills />
               <Certificates certificates={certificatesData} />
               <Contact/>

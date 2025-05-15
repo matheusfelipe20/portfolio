@@ -1,14 +1,14 @@
-#projects {
+#projectsFigma {
   padding: 2rem;
 }
   
-.projects-content {
+.projectsFigma-content {
   max-width: 1110px;
   margin: 0 auto;
   text-align: center;
 }
   
-.projects-title {
+.projectsFigma-title {
   font-size: 2.5rem;
   font-weight: bold;
   color: var(--color-primary);
@@ -16,7 +16,7 @@
   text-align: left;
 }
   
-.projects-divider {
+.projectsFigma-divider {
   border: none;
   border-top: 4px solid var(--background-secondary);
   margin: 0px;
@@ -24,34 +24,34 @@
   margin-top: 10px;
 }
 
-.projects-toggle-container {
+.projectsFigma-toggle-container {
   display: flex;
   justify-content: flex-end;
 }
 
-.projects-toggle-button {
+.projectsFigma-toggle-button {
   background-color: transparent;
   border: none;
   color: var(--color-secondary);
   cursor: pointer;
 }
 
-.projects-toggle-button:hover {
+.projectsFigma-toggle-button:hover {
   color: var(--color-primary);
 }
   
-.projects-grid {
+.projectsFigma-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
 }
 
-.project-link {
+.figma-link {
   text-decoration: none;
 }
   
-.project-item {
+.figma-item {
   display: flex;
   flex-direction: column;
   border: none;
@@ -65,18 +65,18 @@
   padding: 18px;
 }
   
-.project-item:hover {
+.figma-item:hover {
   transform: scale(1.05);
 }
 
-.project-image {
+.figma-image {
   width: 100%;
   height: 110px;
   border-radius: 4px;
   margin: 0px;
 }
 
-.project-text {
+.figma-text {
   display: flex;
   justify-content: flex-start;
   margin-top: 10px;
@@ -84,39 +84,39 @@
   color: var(--color-primary);
 }
   
-.project-tag {
+.figma-tag {
   font-size: 0.8rem;
   font-weight: 600;
   margin-right: 5px;
 }
   
-.project-title {
+.figma-title {
   font-size: 0.9rem;
   margin: 0;
   font-weight: 600;
   text-align: left;
 }
 
-.project-description {
+.figma-description {
   margin-top: 5px;
   height: 30px;
 }
 
-.project-description-text {
+.figma-description-text {
   margin: 0px;
   color: #cfcfcf;
   font-weight: 300;
   text-align: justify;
 }
 
-.project-category {
+.figma-category {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 12px;
 }
 
-.project-tag-technology {
+.figma-tag-technology {
   background-color: var(--background-tag-tecn);
   padding: 4px 8px;
   border-radius: 5px;
@@ -128,7 +128,7 @@
 
 /* Responsivo para dispositivos menores */
 @media (max-width: 768px) {
-  #projects {
+  #projectsFigma {
     padding: 2rem;
     margin-bottom: -20px;
   }

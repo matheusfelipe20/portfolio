@@ -67,9 +67,9 @@ const Contact = () => {
                             <p className="text-info-contact">{texts.EmailLogoContact}</p>
                             <p className="text-info-contact">{texts.TelephoneLogoContact}</p>
                             <div className="redeSocial-contact">
-                                <SocialButton height={"32px"} width={"32px"} icon={instagramIcon} alt="Botão Perfil Instagram" href="https://github.com/matheusfelipe20" />
+                                <SocialButton height={"32px"} width={"32px"} icon={instagramIcon} alt="Botão Perfil Instagram" href="https://www.instagram.com/matthxmf/" />
                                 <SocialButton height={"32px"} width={"32px"} icon={linkedinIcon} alt="Botão Perfil Linkedin" href="https://www.linkedin.com/in/matheus-felipe-30a6b8206/" />
-                                <SocialButton height={"32px"} width={"32px"} icon={githubIcon} alt="Botão Perfil Github" href="https://www.instagram.com/felipe_2012matheus/" />
+                                <SocialButton height={"32px"} width={"32px"} icon={githubIcon} alt="Botão Perfil Github" href="https://github.com/matheusfelipe20" />
                             </div>
                             <button className="copy-button-contact" onClick={() => navigator.clipboard.writeText("CopasEditor@gmail.com")}>
                                 {texts.CopyEmailContact}

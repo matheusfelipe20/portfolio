@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.733e9dad.css",
-    "main.js": "/portfolio/static/js/main.6758c926.js",
+    "main.css": "/portfolio/static/css/main.23b66b14.css",
+    "main.js": "/portfolio/static/js/main.6d0d0880.js",
     "static/js/453.4eb35551.chunk.js": "/portfolio/static/js/453.4eb35551.chunk.js",
     "static/media/portfolioMiiusFigma.png": "/portfolio/static/media/portfolioMiiusFigma.672db7b617e7af48f3b3.png",
     "static/media/photo-about.jpeg": "/portfolio/static/media/photo-about.2ac453072bbbaeb43159.jpeg",
@@ -10,12 +10,9 @@
     "static/media/missaosaudeFigma.png": "/portfolio/static/media/missaosaudeFigma.52a401ad7d6a7e3f3a70.png",
     "static/media/studioAmanda.png": "/portfolio/static/media/studioAmanda.36fa63bc4d664447c14b.png",
     "static/media/photo-intro.png": "/portfolio/static/media/photo-intro.cd1dbe8c03f77ab4f539.png",
-    "static/media/missaoSaude.png": "/portfolio/static/media/missaoSaude.e386cc31ac4ba5a2decd.png",
-    "static/media/analysisScore.png": "/portfolio/static/media/analysisScore.b29aee60d6e311c3ce66.png",
     "static/media/meajude.png": "/portfolio/static/media/meajude.6ecc150731ad1f2ae92e.png",
     "static/media/copasfilmsFigma.png": "/portfolio/static/media/copasfilmsFigma.aec74e28ac6195810208.png",
     "static/media/apostas-sport.png": "/portfolio/static/media/apostas-sport.2e61f51027a3a3dc2572.png",
-    "static/media/jogo-nave.png": "/portfolio/static/media/jogo-nave.197d229b86b941fc4a3a.png",
     "static/media/suadieta.png": "/portfolio/static/media/suadieta.ed12a8fe007c8eb9c82b.png",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.46236cb6c8950e3805a8.png",
     "static/media/us.svg": "/portfolio/static/media/us.e53298ba37950ebf6bae7c5ae7b3f5a2.svg",
@@ -25,12 +22,12 @@
     "static/media/br.svg": "/portfolio/static/media/br.050b74316b0da55026c0578e6cd7faa2.svg",
     "static/media/iconCode.svg": "/portfolio/static/media/iconCode.938ddea776a353053ff2ac95fb298798.svg",
     "index.html": "/portfolio/index.html",
-    "main.733e9dad.css.map": "/portfolio/static/css/main.733e9dad.css.map",
-    "main.6758c926.js.map": "/portfolio/static/js/main.6758c926.js.map",
+    "main.23b66b14.css.map": "/portfolio/static/css/main.23b66b14.css.map",
+    "main.6d0d0880.js.map": "/portfolio/static/js/main.6d0d0880.js.map",
     "453.4eb35551.chunk.js.map": "/portfolio/static/js/453.4eb35551.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.733e9dad.css",
-    "static/js/main.6758c926.js"
+    "static/css/main.23b66b14.css",
+    "static/js/main.6d0d0880.js"
   ]
 }

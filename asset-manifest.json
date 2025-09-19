@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.23b66b14.css",
-    "main.js": "/portfolio/static/js/main.716f3bc0.js",
+    "main.css": "/portfolio/static/css/main.daff0df2.css",
+    "main.js": "/portfolio/static/js/main.e5cbf260.js",
     "static/js/453.4eb35551.chunk.js": "/portfolio/static/js/453.4eb35551.chunk.js",
-    "static/media/portfolioMiiusFigma.png": "/portfolio/static/media/portfolioMiiusFigma.672db7b617e7af48f3b3.png",
+    "static/media/portfolioMiiusFigma.png": "/portfolio/static/media/portfolioMiiusFigma.91a83cba0c3f1c14bee5.png",
     "static/media/photo-about.jpeg": "/portfolio/static/media/photo-about.2ac453072bbbaeb43159.jpeg",
+    "static/media/miius.png": "/portfolio/static/media/miius.6dff891407d629a1b3f1.png",
     "static/media/studioamandaFigma.png": "/portfolio/static/media/studioamandaFigma.73944474df5b46051338.png",
     "static/media/copasfilms.png": "/portfolio/static/media/copasfilms.4839cdb5d996fa8b2380.png",
     "static/media/missaosaudeFigma.png": "/portfolio/static/media/missaosaudeFigma.52a401ad7d6a7e3f3a70.png",
@@ -22,12 +23,12 @@
     "static/media/br.svg": "/portfolio/static/media/br.050b74316b0da55026c0578e6cd7faa2.svg",
     "static/media/iconCode.svg": "/portfolio/static/media/iconCode.938ddea776a353053ff2ac95fb298798.svg",
     "index.html": "/portfolio/index.html",
-    "main.23b66b14.css.map": "/portfolio/static/css/main.23b66b14.css.map",
-    "main.716f3bc0.js.map": "/portfolio/static/js/main.716f3bc0.js.map",
+    "main.daff0df2.css.map": "/portfolio/static/css/main.daff0df2.css.map",
+    "main.e5cbf260.js.map": "/portfolio/static/js/main.e5cbf260.js.map",
     "453.4eb35551.chunk.js.map": "/portfolio/static/js/453.4eb35551.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23b66b14.css",
-    "static/js/main.716f3bc0.js"
+    "static/css/main.daff0df2.css",
+    "static/js/main.e5cbf260.js"
   ]
 }

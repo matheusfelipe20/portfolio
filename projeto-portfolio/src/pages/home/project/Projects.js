@@ -9,6 +9,7 @@ import apostasEsportivas from '../../../assets/img/project/apostas-sport.png';
 import aspnet from '../../../assets/img/project/aspnet.png'
 import portfolio from '../../../assets/img/project/portfolio.png'
 import studioamanda from '../../../assets/img/project/studioAmanda.png'
+import miius from '../../../assets/img/project/miius.png'
 
 import useTexts from '../../../hooks/useTexts';
 
@@ -17,12 +18,13 @@ const Projects = () => {
   const projectsData = [
     { id: 1, tag: texts.TagFreelancer_Project, title: 'Studio Amanda Paiva', description: texts.DescriptionProject_StudioAmandaPaiva_Project, color: 'var(--color-tag-freelancer)', imgSrc: studioamanda, link: 'https://studioamandapaiva.com.br/', tag_technology: ['React', 'JavaScript'],}, 
     { id: 2, tag: texts.TagFreelancer_Project, title: 'Copas Films', description: texts.DescriptionProject_CopasFilms_Project, color: 'var(--color-tag-freelancer)', imgSrc: copasfilms, link: 'https://copasfilms.github.io/portfolio/', tag_technology: ['React', 'JavaScript'],}, 
-    { id: 3, tag: texts.TagProfile_Project, title: 'Meu Portfolio', description: texts.DescriptionProject_MeuPortfolio_Project, color: 'var(--color-tag-profile)', imgSrc: portfolio, link: 'https://github.com/matheusfelipe20/portfolio', tag_technology: ['React', 'JavaScript'],},
-    { id: 4, tag: texts.TagProject_Project, title: 'Proj. DSC - UFPB', description: texts.DescriptionProject_DscUFPB_Project, color: 'var(--color-tag-project)', imgSrc: meajude, link: 'https://github.com/matheusfelipe20/Projeto-Final-DSC', tag_technology: ['Java', 'Spring Boot'],},
-    { id: 5, tag: texts.TagProject_Project, title: 'Proj. Sua Dieta - UFPB', description: texts.DescriptionProject_SuaDieta_Project, color: 'var(--color-tag-project)', imgSrc: suadieta, link: 'https://github.com/matheusfelipe20/ESA-2022.1--SuaDieta--Projeto-UFPB', tag_technology: ['JavaScript', 'HTML/CSS', 'Python'],},
-    { id: 6, tag: texts.TagEstudy_Project, title: 'Chat Socket TCP', description: texts.DescriptionProject_ChatSocket_Project, color: 'var(--color-tag-study)', imgSrc: chatSocketTCP, link: 'https://github.com/matheusfelipe20/ChatSocketTCP', tag_technology: ['Java'],},
-    { id: 7, tag: texts.TagTraining_Project, title: 'Proj. Asp.net', description: texts.DescriptionProject_AspNet_Project, color: 'var(--color-tag-training)', imgSrc: aspnet, link: 'https://github.com/matheusfelipe20/Projeto-ASP.NET', tag_technology: ['C#', 'ASP.Net', 'HTML/CSS'],},
-    { id: 8, tag: texts.TagProject_Project, title: 'Sist. Apostas Esportivas', description: texts.DescriptionProject_ApostasEsportivas_Project, color: 'var(--color-tag-project)', imgSrc: apostasEsportivas, link: 'https://github.com/matheusfelipe20/desafio-api-jogos', tag_technology: ['Golang', 'JavaScript'],},
+    { id: 3, tag: texts.TagFreelancer_Project, title: 'Miius - Dev Games', description: texts.DescriptionProject_Miius_Project, color: 'var(--color-tag-freelancer)', imgSrc: miius, link: 'https://miius.github.io/portfolio/', tag_technology: ['React', 'JavaScript'],}, 
+    { id: 4, tag: texts.TagProfile_Project, title: 'Meu Portfolio', description: texts.DescriptionProject_MeuPortfolio_Project, color: 'var(--color-tag-profile)', imgSrc: portfolio, link: 'https://github.com/matheusfelipe20/portfolio', tag_technology: ['React', 'JavaScript'],},
+    { id: 5, tag: texts.TagProject_Project, title: 'Proj. DSC - UFPB', description: texts.DescriptionProject_DscUFPB_Project, color: 'var(--color-tag-project)', imgSrc: meajude, link: 'https://github.com/matheusfelipe20/Projeto-Final-DSC', tag_technology: ['Java', 'Spring Boot'],},
+    { id: 6, tag: texts.TagProject_Project, title: 'Proj. Sua Dieta - UFPB', description: texts.DescriptionProject_SuaDieta_Project, color: 'var(--color-tag-project)', imgSrc: suadieta, link: 'https://github.com/matheusfelipe20/ESA-2022.1--SuaDieta--Projeto-UFPB', tag_technology: ['JavaScript', 'HTML/CSS', 'Python'],},
+    { id: 7, tag: texts.TagEstudy_Project, title: 'Chat Socket TCP', description: texts.DescriptionProject_ChatSocket_Project, color: 'var(--color-tag-study)', imgSrc: chatSocketTCP, link: 'https://github.com/matheusfelipe20/ChatSocketTCP', tag_technology: ['Java'],},
+    { id: 8, tag: texts.TagTraining_Project, title: 'Proj. Asp.net', description: texts.DescriptionProject_AspNet_Project, color: 'var(--color-tag-training)', imgSrc: aspnet, link: 'https://github.com/matheusfelipe20/Projeto-ASP.NET', tag_technology: ['C#', 'ASP.Net', 'HTML/CSS'],},
+    { id: 9, tag: texts.TagProject_Project, title: 'Sist. Apostas Esportivas', description: texts.DescriptionProject_ApostasEsportivas_Project, color: 'var(--color-tag-project)', imgSrc: apostasEsportivas, link: 'https://github.com/matheusfelipe20/desafio-api-jogos', tag_technology: ['Golang', 'JavaScript'],},
   ];
 
   const [showAll, setShowAll] = useState(false);

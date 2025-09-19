@@ -39,6 +39,12 @@
 .projectsFigma-toggle-button:hover {
   color: var(--color-primary);
 }
+
+.projectsFigma-toggle-button:disabled {
+  color: #666666;          
+  cursor: not-allowed;    
+  border-color: #999999;
+}
   
 .projectsFigma-grid {
   display: flex;

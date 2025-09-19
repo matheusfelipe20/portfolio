@@ -19,6 +19,7 @@ const Figma = () => {
 
   const [showAll, setShowAll] = useState(false);
   const visibleProjectsFigma = showAll ? projectsFigmaData : projectsFigmaData.slice(0, 4);
+  const isButtonDisabled = true;
 
   return (
     <section id="projectsFigma">
@@ -26,7 +27,7 @@ const Figma = () => {
         <h2 className="projectsFigma-title">{texts.Title_FigmaProject}</h2>
         <hr className="projectsFigma-divider" />
         <div className="projectsFigma-toggle-container">
-          <button className="projectsFigma-toggle-button" onClick={() => setShowAll(!showAll)}>
+          <button className="projectsFigma-toggle-button" onClick={() => setShowAll(!showAll)} disabled={isButtonDisabled}>
             {showAll ? texts.ButtonHide_FigmaProject : texts.ButtonView_FigmaProject}
           </button>
         </div>

@@ -1,0 +1,36 @@
+/* Espaço para variaveis de cores */
+
+:root {
+
+    --color-palette-01:#121212;
+    --color-palette-02:#f78e4d;
+    --color-palette-03:#e9e9e9;
+    --color-primary: #e9e9e9;
+    --color-secondary: #a1a1a1;
+
+    --background-primary: var(--color-palette-01);
+    --background-secondary: var(--color-palette-02);
+    --background-footer: var(--background-primary);
+    --background-header: #000000;
+    --background-form: var(--background-primary);
+    
+    /* Variaveis hover */
+    --hover-color-palette-01: #1e1e1e;
+    --hover-color-palette-02: #ff9b5d;
+    --hover-color-palette-03: #d1d1d1;
+    --hover-color-primary: #FF944D;
+
+    /* Variaveis cores de tag projetos */
+    --color-tag-project: #a400ff;
+    --color-tag-freelancer: #ff7d00;
+    --color-tag-profile: #ffda34;
+    --color-tag-study: #00a7ff;
+    --color-tag-game: #00ff56;
+    --color-tag-training: #b61135;
+    --color-tag-figma: #ff5ce4;
+
+    /* Variaveis cores tag tecnologia de projeto */
+    --background-tag-tecn: #e9b62b;
+    --font-tag-tecn: #101010;
+    --font-black: #101010;
+}

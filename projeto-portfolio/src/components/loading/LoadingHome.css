@@ -1,0 +1,37 @@
+.loading-terminal {
+    background-color: var(--color-palette-01);
+    color: var(--color-palette-02);
+    height: 100vh;
+    width: 100%;
+    font-family: 'Fira Code', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.terminal-box {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    background-color: #111;
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 0 12px var(--color-palette-02);
+}
+  
+.terminal-text {
+    white-space: nowrap;
+}
+  
+.cursor {
+    display: inline-block;
+    width: 10px;
+    height: 1.8rem;
+    background-color: var(--color-palette-02);
+    margin-left: 4px;
+    animation: blink 0.8s infinite;
+}
+  
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
